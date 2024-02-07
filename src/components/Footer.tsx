@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
       icon: "fab fa-youtube",
     },
   ];
-  
+
   const searchLinks = [
     {
       name: "Tvé jméno",
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
       url: "#kontakt",
     },
   ];
-  
+
   const nextStepsLinks = [
     {
       name: "Napiš",
@@ -51,24 +51,28 @@ const Footer: React.FC = () => {
       url: "https://www.youtube.com/channel/UCMlo7Ew_x0FjDqlvctXkGTg",
     },
   ];
-  
-  
+
   return (
     <div className="bg-primary border-secondary border-t-8 p-12">
       <div className="grid grid-cols-1 md:grid-cols-3 max-w-5xl m-auto gap-y-6">
-        
         {/* Social Links Section */}
         <div className="one flex flex-col gap-y-4">
           <h2 className="text-4xl text-secondary font-bold">Pepa Mráz</h2>
           <div className="icons flex gap-x-2 text-secondary text-2xl">
             {socialLinks.map((link, index) => (
-              <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" aria-label={link.name}>
+              <a
+                key={index}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={link.name}
+              >
                 <i className={link.icon}></i>
               </a>
             ))}
           </div>
         </div>
-  
+
         {/* Search Links Section */}
         <div className="two">
           <h2 className="text-2xl text-secondary font-bold">Hledám...</h2>
@@ -80,23 +84,27 @@ const Footer: React.FC = () => {
             ))}
           </ul>
         </div>
-  
+
         {/* Next Steps Links Section */}
         <div className="three">
           <h2 className="text-2xl text-secondary font-bold">Co dál?</h2>
           <ul className="footer-links text-white">
             {nextStepsLinks.map((link, index) => (
               <li key={index} className="hover:text-secondary">
-                <a href={link.url} target={link.url.startsWith('http') ? "_blank" : "_self"} rel="noopener noreferrer">{link.name}</a>
+                <a
+                  href={link.url}
+                  target={link.url.startsWith("http") ? "_blank" : "_self"}
+                  rel="noopener noreferrer"
+                >
+                  {link.name}
+                </a>
               </li>
             ))}
           </ul>
         </div>
-  
       </div>
     </div>
   );
-  
 };
 
 export default Footer;

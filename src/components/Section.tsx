@@ -30,7 +30,16 @@ const Section: React.FC<SectionProps> = ({
         <h2 className="font-bold font-mono text-2xl">{title}</h2>
         <p>{content}</p>
         {button && (
-          <a className="m-auto md:m-0" href={link ?? ""} target={link?.startsWith("http") && !link.startsWith(window.location.origin) ? "_blank" : undefined}>
+          <a
+            className="m-auto md:m-0"
+            href={link ?? ""}
+            target={
+              link?.startsWith("http") &&
+              !link.startsWith(window.location.origin)
+                ? "_blank"
+                : undefined
+            }
+          >
             <button>
               {button}
               <i className={"pl-2 " + icon}></i>

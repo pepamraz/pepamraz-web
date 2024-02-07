@@ -19,12 +19,15 @@ const Slider: React.FC = () => {
   ];
 
   return (
-    <div className={`flex flex-wrap md:flex-nowrap justify-evenly gap-2 bg-primary border-t-8 border-b-8 border-secondary p-4`} id="technologie">
+    <div
+      className={`flex flex-wrap md:flex-nowrap justify-evenly gap-2 bg-primary border-t-8 border-b-8 border-secondary p-4`}
+      id="technologie"
+    >
       {images.map((image, index) => (
         <SliderItem key={index} image={image} />
       ))}
     </div>
-  );  
+  );
 };
 
 export default Slider;

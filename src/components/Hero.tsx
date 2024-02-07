@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <div className="hero-section grid grid-cols-1 place-items-center md:grid-cols-2" id="hero">
+    <div
+      className="hero-section grid grid-cols-1 place-items-center md:grid-cols-2"
+      id="hero"
+    >
       <div className="p-4 flex flex-col gap-y-8 items-center md:items-start justify-evenly">
         <h1 className="text-4xl font-bold text-center md:text-left">
           Programátor
