@@ -2,7 +2,7 @@
 
 Creating websites and videos. Delivering not just products, but a strategy for real results.
 
-## What I DO
+## What I Do
 - Web Dev
 - Video Editor
 
