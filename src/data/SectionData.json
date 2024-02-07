@@ -1,0 +1,30 @@
+[
+  {
+    "id": "weby",
+    "title": "Tvorba webových stránek",
+    "content": "Jako hlavního vývojář webových stránek pro společnost nejlepšíwebovky.cz, Vám poskytnu nejen atraktivní a funkční web, ale celkovou digitální strategii navrženou tak, aby vám přinesla reálné výsledky. Jaké konkrétně výhody vám může naše spolupráce přinést?",
+    "button": "Potřebuju web",
+    "icon": "fa-solid fa-globe",
+    "link": "https://nejlepsiwebovky.cz",
+    "image1": "section-icons/pepamraz-cz-nejlepsiwebovky-cz-logo.svg"
+  },
+  {
+    "id": "video",
+    "title": "Střih a tvorba videí",
+    "content": "Jako hlavního vývojář webových stránek pro společnost nejlepšíwebovky.cz, Vám poskytnu nejen atraktivní a funkční web, ale celkovou digitální strategii navrženou tak, aby vám přinesla reálné výsledky. Jaké konkrétně výhody vám může naše spolupráce přinést?",
+    "button": "YouTube Kanál",
+    "icon": "fab fa-youtube",
+    "link": "https://www.youtube.com/channel/UCMlo7Ew_x0FjDqlvctXkGTg",
+    "image1": "section-icons/pepamraz-cz-youtube-logo.svg",
+    "image2": "section-icons/pepamraz-cz-video-editor-icon.svg"
+  },
+  {
+    "id": "kontakt",
+    "title": "Rychlé spojení",
+    "content": "Jako hlavního vývojář webových stránek pro společnost nejlepšíwebovky.cz, Vám poskytnu nejen atraktivní a funkční web, ale celkovou digitální strategii navrženou tak, aby vám přinesla reálné výsledky. Jaké konkrétně výhody vám může naše spolupráce přinést?",
+    "button": "Napište mi",
+    "icon": "fab fa-telegram-plane",
+    "link": "mailto:boss@pepamraz.cz",
+    "image1": "section-icons/pepamraz-cz-envelope-icon.svg"
+  }
+]
