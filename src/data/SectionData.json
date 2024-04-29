@@ -2,7 +2,7 @@
   {
     "id": "weby",
     "title": "Tvorba webových stránek",
-    "content": "Jako hlavního vývojář webových stránek pro společnost nejlepšíwebovky.cz, Vám poskytnu nejen atraktivní a funkční web, ale celkovou digitální strategii navrženou tak, aby vám přinesla reálné výsledky. Jaké konkrétně výhody vám může naše spolupráce přinést?",
+    "content": "Jsem vývojář webových stránek a specializuji se na tvorbu moderních a funkčních webů. Vytvořím webové stránky, které budou nejen krásné, ale také efektivní a přinášející výsledky. Zjistěte, jak vám mohu pomoci s vaším webem.",
     "button": "Potřebuju web",
     "icon": "fa-solid fa-globe",
     "link": "https://nejlepsiwebovky.cz",
@@ -11,8 +11,8 @@
   {
     "id": "video",
     "title": "Střih a tvorba videí",
-    "content": "Jako hlavního vývojář webových stránek pro společnost nejlepšíwebovky.cz, Vám poskytnu nejen atraktivní a funkční web, ale celkovou digitální strategii navrženou tak, aby vám přinesla reálné výsledky. Jaké konkrétně výhody vám může naše spolupráce přinést?",
-    "button": "YouTube Kanál",
+    "content": "Jsem video editor a specializuji se na střih a tvorbu videí pro sociální sítě, zejména pro YouTube. Mám bohaté zkušenosti s rychlými střihy a používáním velkého množství efektů. Pokud potřebujete profesionálně upravit svá videa, jsem tu pro vás.",
+    "button": "YouTube kanál",
     "icon": "fab fa-youtube",
     "link": "https://www.youtube.com/channel/UCMlo7Ew_x0FjDqlvctXkGTg",
     "image1": "section-icons/pepamraz-cz-youtube-logo.svg",
@@ -21,7 +21,7 @@
   {
     "id": "kontakt",
     "title": "Rychlé spojení",
-    "content": "Jako hlavního vývojář webových stránek pro společnost nejlepšíwebovky.cz, Vám poskytnu nejen atraktivní a funkční web, ale celkovou digitální strategii navrženou tak, aby vám přinesla reálné výsledky. Jaké konkrétně výhody vám může naše spolupráce přinést?",
+    "content": "Máte na mě dotaz nebo potřebujete poradit s vaším projektem? Neváhejte mě kontaktovat. Jsem tu pro vás a rád vám pomohu s vašimi webovými stránkami nebo videi.",
     "button": "Napište mi",
     "icon": "fab fa-telegram-plane",
     "link": "mailto:boss@pepamraz.cz",
