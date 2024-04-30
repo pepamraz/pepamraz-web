@@ -27,32 +27,22 @@ html {
   color: #ffffff;
 }
 
-.tippy-box {
-  background-color: #007bff;
-  color: white;
-}
-
-.tippy-arrow {
-  color: #007bff;
-}
-
-.modal::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px;
 }
 
-.modal::-webkit-scrollbar-thumb {
-  background-color: #007bff;
-  border-radius: 8px;
+::-webkit-scrollbar-thumb {
+  background-color: #525fe1;
 }
 
-.modal::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
+::-webkit-scrollbar-track {
+  background-color: #e2e2e2;
 }
 
-.modal::-webkit-scrollbar-thumb:hover {
-  background-color: #303aa7;
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f0de36;
 }
 
-.modal::-webkit-scrollbar-thumb:active {
-  background-color: #303aa7;
+::-webkit-scrollbar-thumb:active {
+  background-color: #a89a18;
 }

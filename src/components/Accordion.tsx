@@ -1,32 +1,29 @@
-import React, { useState } from 'react';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-export const Accordion: React.FC = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleAccordion = () => {
-        setIsOpen(!isOpen);
-    };
-
-    return (
-        <div className="w-full">
-            <button
-                className="w-full bg-blue-600 text-left py-2 px-4 focus:outline-none"
-                {...isOpen && { 'aria-expanded': 'true' }}
-                onClick={toggleAccordion}
-            >
-                Accordion Title
-            </button>
-            <div
-                className={`overflow-hidden transition-max-height duration-300 ${
-                    isOpen ? 'max-h-96' : 'max-h-0'
-                }`}
-            >
-                <div className="bg-gray-100 p-4">
-                    Accordion Content
-                </div>
-            </div>
-        </div>
-    );
+export const Accordion = ({ title, content, isOpen, onClick }) => {
+  return (
+    <div className="w-full">
+      <button
+        className={`w-full text-left py-2 px-4 focus:outline-none flex justify-between items-center ${
+          isOpen ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-800"
+        }`}
+        aria-expanded={isOpen}
+        onClick={onClick}
+      >
+        {title}
+        <FontAwesomeIcon icon={isOpen ? faChevronUp : faChevronDown} />
+      </button>
+      <div
+        className={`overflow-hidden transition-all duration-300 ${
+          isOpen ? "max-h-96" : "max-h-0"
+        }`}
+      >
+        <div className="bg-gray-100 p-4">{content}</div>
+      </div>
+    </div>
+  );
 };
 
 export default Accordion;

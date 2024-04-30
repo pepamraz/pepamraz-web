@@ -46,9 +46,10 @@ const technologies: TechnologyMap[] = [
       title: "PHP",
       body: <PHP />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-php.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-php.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-php.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     React: {
@@ -56,9 +57,10 @@ const technologies: TechnologyMap[] = [
       title: "React",
       body: <ReactFramework />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-react.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-react.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-react.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     CSS: {
@@ -66,9 +68,10 @@ const technologies: TechnologyMap[] = [
       title: "CSS",
       body: <CSS />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-css.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-css.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-css.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     HTML: {
@@ -76,9 +79,10 @@ const technologies: TechnologyMap[] = [
       title: "HTML",
       body: <HTML />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-html.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-html.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-html.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     JavaScript: {
@@ -86,9 +90,10 @@ const technologies: TechnologyMap[] = [
       title: "JavaScript",
       body: <JavaScript />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-javascript.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-javascript.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-javascript.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     "Premiere Pro": {
@@ -96,9 +101,10 @@ const technologies: TechnologyMap[] = [
       title: "Premiere Pro",
       body: <PremierePro />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-premiere-pro.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-premiere-pro.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-premiere-pro.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     Elementor: {
@@ -106,9 +112,10 @@ const technologies: TechnologyMap[] = [
       title: "Elementor",
       body: <Elementor />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-elementor.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-elementor.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-elementor.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     Git: {
@@ -116,9 +123,10 @@ const technologies: TechnologyMap[] = [
       title: "Git",
       body: <Git />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-git.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-git.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-git.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     WooCommerce: {
@@ -126,9 +134,10 @@ const technologies: TechnologyMap[] = [
       title: "WooCommerce",
       body: <WooCommerce />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-woocommerce.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-woocommerce.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-woocommerce.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     Linux: {
@@ -136,9 +145,10 @@ const technologies: TechnologyMap[] = [
       title: "Linux",
       body: <Linux />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-linux.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-linux.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-linux.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     Bash: {
@@ -146,9 +156,10 @@ const technologies: TechnologyMap[] = [
       title: "Bash",
       body: <Bash />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-bash.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-bash.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-bash.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
     "C#": {
@@ -156,9 +167,10 @@ const technologies: TechnologyMap[] = [
       title: "C#",
       body: <CSharp />,
       images: [
-        "./tech-icons/pepamraz-cz-technology-icon-c-sharp.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-c-sharp.svg",
-        "./tech-icons/pepamraz-cz-technology-icon-c-sharp.svg",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
+        "https://picsum.photos/1080",
       ],
     },
   },
@@ -174,7 +186,7 @@ const Slider: React.FC = () => {
   };
 
   const findTechIndex = (tech) => {
-    return allTechnologies.findIndex(key => technologies[0][key] === tech);
+    return allTechnologies.findIndex((key) => technologies[0][key] === tech);
   };
 
   const handleNext = () => {
@@ -192,7 +204,10 @@ const Slider: React.FC = () => {
   };
 
   return (
-    <div className={`flex flex-wrap md:flex-nowrap justify-evenly gap-2 bg-primary border-t-8 border-b-8 border-secondary p-4`} id="technologie">
+    <div
+      className={`flex flex-wrap md:flex-nowrap justify-evenly gap-2 bg-primary border-t-8 border-b-8 border-secondary p-4`}
+      id="technologie"
+    >
       {technologies.map((techMap) =>
         Object.keys(techMap).map((key) => (
           <Tippy key={key} content={techMap[key].title} placement="bottom">
