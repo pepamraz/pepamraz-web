@@ -1,5 +1,7 @@
-import React from "react";
 import TechTemplate from "../components/TechTemplate";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWordpress } from "@fortawesome/free-brands-svg-icons";
+import { faCartShopping, faHandshake } from "@fortawesome/free-solid-svg-icons";
 
 export const Wordpress = () => {
   return (
@@ -19,6 +21,23 @@ export const Wordpress = () => {
             isYear: true,
             title: "Zkušeností s WordPressem",
             animationTime: 500,
+          },
+        ]}
+        repositories={[
+          {
+            title: "NejlepšíWebovky.cz",
+            url: "https://nejlepsiwebovky.cz",
+            icon: <FontAwesomeIcon icon={faWordpress} size="2xl" />,
+          },
+          {
+            title: "Weby pro klienty",
+            url: "https://nejlepsiwebovky.cz/reference/",
+            icon: <FontAwesomeIcon icon={faHandshake} size="2xl" />,
+          },
+          {
+            title: "Greenly.cz",
+            url: "https://greenly.cz",
+            icon: <FontAwesomeIcon icon={faCartShopping} size="2xl" />,
           },
         ]}
         accordions={[

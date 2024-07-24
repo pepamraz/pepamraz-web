@@ -1,4 +1,3 @@
-import React from "react";
 import { Accordion } from "../components/Accordion";
 import { AccordionGroup } from "../components/AccordionGroup";
 import Counter from "../components/Counter";
@@ -6,7 +5,7 @@ import Counter from "../components/Counter";
 interface CounterData {
   number: number;
   afterNumber?: string;
-  title: string;
+  title: string | JSX.Element;
   animationTime: number;
   isYear?: boolean;
 }
@@ -18,12 +17,13 @@ interface AccordionData {
 
 interface TechTemplateProps {
   header: string;
-  description: string;
+  description: string | JSX.Element;
+  repositories?: { title: string; url: string; icon: string | JSX.Element }[];
   counters: CounterData[];
   accordions: AccordionData[];
 }
 
-export const TechTemplate: React.FC<TechTemplateProps> = ({ header, description, counters, accordions }) => {
+export const TechTemplate: React.FC<TechTemplateProps> = ({ header, description, counters, repositories, accordions }) => {
   return (
     <>
       <h3 className="font-serif">{header}</h3>
@@ -38,6 +38,18 @@ export const TechTemplate: React.FC<TechTemplateProps> = ({ header, description,
             animationTime={counter.animationTime}
             isYear={counter.isYear}
           />
+        ))}
+      </div>
+      <div className="flex justify-evenly gap-4 flex-wrap">
+        {repositories?.map((repository, index) => (        
+          <a href={repository.url} target="_blank" className="flex gap-3 items-center" key={index}>
+            {repository.icon && typeof repository.icon === "string" ? (
+              <img src={repository.icon} alt={repository.title} width={32} />
+            ) : (
+              repository.icon
+            )}
+            {repository.title}
+          </a>
         ))}
       </div>
       <AccordionGroup>

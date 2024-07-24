@@ -1,14 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import linksData from "../data/SectionData.json";
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 150) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <header className="bg-primary text-white px-4 lg:rounded-b-2xl fixed w-full max-w-5xl top-0 shadow-2xl z-10">
-      <div className="container mx-auto py-4">
+    <header
+      className={`bg-primary text-white px-4 fixed top-0 shadow-2xl z-10 transition-all duration-300 ${
+        isScrolled
+          ? "w-full max-w-full rounded-none"
+          : "w-full max-w-5xl lg:rounded-b-2xl"
+      }`}
+     style={{left: '50%', transform: 'translateX(-50%)'}}
+    >
+      <div className="container mx-auto py-4 max-w-[992px]">
         <div className="flex justify-between items-center">
-          <a href="#hero" className="text-2xl font-bold">
+          <a
+            href="#hero"
+            className="text-2xl font-bold text-white no-underline"
+          >
             Pepa Mráz
           </a>
           <button
@@ -30,7 +56,7 @@ const Header: React.FC = () => {
                   <li key={link.id}>
                     <a
                       href={`#${link.id}`}
-                      className="text-white hover:text-secondary block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-white hover:text-secondary block px-3 py-2 rounded-md text-base font-medium no-underline"
                     >
                       {link.title}
                     </a>

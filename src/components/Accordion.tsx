@@ -1,8 +1,7 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-export const Accordion = ({ title, content, isOpen, onClick }) => {
+export const Accordion = ({ title, content, onClick = () => {}, isOpen = false }) => {
   return (
     <div className="w-full">
       <button

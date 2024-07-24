@@ -1,4 +1,3 @@
-import React from "react";
 import TechTemplate from "../components/TechTemplate";
 
 export const PHP = () => {

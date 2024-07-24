@@ -1,5 +1,6 @@
-import React from "react";
 import TechTemplate from "../components/TechTemplate";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhp, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const ReactFramework = () => {
   return (
@@ -19,6 +20,18 @@ export const ReactFramework = () => {
             afterNumber: " %",
             title: "Tohoto webu v Reactu",
             animationTime: 1500,
+          },
+        ]}
+        repositories={[
+          {
+            title: "PHP Enjoyeři",
+            url: "https://pepamraz.github.io/php-enjoyeri-website/",
+            icon: <FontAwesomeIcon icon={faPhp} size="2xl" />,
+          },
+          {
+            title: "PHP Enjoyeři Repository",
+            url: "https://github.com/pepamraz/php-enjoyeri-website",
+            icon: <FontAwesomeIcon icon={faGithub} size="2xl" />,
           },
         ]}
         accordions={[

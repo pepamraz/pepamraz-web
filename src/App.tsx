@@ -13,8 +13,8 @@ import sectionsData from "./data/SectionData.json";
 const App: React.FC = () => {
   return (
     <>
+      <Header />
       <div className="max-w-5xl m-auto pt-24">
-        <Header />
         <Hero />
       </div>
       <Slider />

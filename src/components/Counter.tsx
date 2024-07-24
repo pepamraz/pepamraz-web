@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 interface CounterProps {
   number: number;
   afterNumber?: string;
-  title: string;
+  title: string | JSX.Element;
   isYear?: boolean;
   animationTime?: number;
 }

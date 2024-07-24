@@ -1,0 +1,91 @@
+{
+  "hash": "8311fa46",
+  "configHash": "df243a3f",
+  "lockfileHash": "8e78d843",
+  "browserHash": "73d69302",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "4749425d",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "eee0cb94",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "9c53c282",
+      "needsInterop": true
+    },
+    "@tippyjs/react": {
+      "src": "../../node_modules/@tippyjs/react/dist/tippy-react.esm.js",
+      "file": "@tippyjs_react.js",
+      "fileHash": "3a0c9a5b",
+      "needsInterop": false
+    },
+    "@fortawesome/react-fontawesome": {
+      "src": "../../node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "file": "@fortawesome_react-fontawesome.js",
+      "fileHash": "a83404d7",
+      "needsInterop": false
+    },
+    "@fortawesome/free-brands-svg-icons": {
+      "src": "../../node_modules/@fortawesome/free-brands-svg-icons/index.mjs",
+      "file": "@fortawesome_free-brands-svg-icons.js",
+      "fileHash": "e7317d57",
+      "needsInterop": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "f8225d6d",
+      "needsInterop": false
+    },
+    "react-lazy-load-image-component": {
+      "src": "../../node_modules/react-lazy-load-image-component/build/index.js",
+      "file": "react-lazy-load-image-component.js",
+      "fileHash": "f7886b52",
+      "needsInterop": true
+    },
+    "yet-another-react-lightbox": {
+      "src": "../../node_modules/yet-another-react-lightbox/dist/index.js",
+      "file": "yet-another-react-lightbox.js",
+      "fileHash": "db10a592",
+      "needsInterop": false
+    },
+    "yet-another-react-lightbox/plugins/thumbnails": {
+      "src": "../../node_modules/yet-another-react-lightbox/dist/plugins/thumbnails/index.js",
+      "file": "yet-another-react-lightbox_plugins_thumbnails.js",
+      "fileHash": "619e52ac",
+      "needsInterop": false
+    },
+    "yet-another-react-lightbox/plugins": {
+      "src": "../../node_modules/yet-another-react-lightbox/dist/plugins/index.js",
+      "file": "yet-another-react-lightbox_plugins.js",
+      "fileHash": "f3644621",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-WQZALF3I": {
+      "file": "chunk-WQZALF3I.js"
+    },
+    "chunk-FUPMRAXL": {
+      "file": "chunk-FUPMRAXL.js"
+    },
+    "chunk-4ASWBRZ3": {
+      "file": "chunk-4ASWBRZ3.js"
+    },
+    "chunk-O6O4HUXW": {
+      "file": "chunk-O6O4HUXW.js"
+    },
+    "chunk-LQ2VYIYD": {
+      "file": "chunk-LQ2VYIYD.js"
+    }
+  }
+}

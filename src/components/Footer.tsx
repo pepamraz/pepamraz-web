@@ -39,8 +39,8 @@ const Footer: React.FC = () => {
 
   const nextStepsLinks = [
     {
-      name: "Napiš",
-      url: "mailto:boss@pepamraz.cz",
+      name: "Kup si něco hezkého na Greenly.cz",
+      url: "https://greenly.cz",
     },
     {
       name: "Koukni na moje fotky",
@@ -49,6 +49,10 @@ const Footer: React.FC = () => {
     {
       name: "Zhlédni má videa",
       url: "https://www.youtube.com/channel/UCMlo7Ew_x0FjDqlvctXkGTg",
+    },
+    {
+      name: "Napiš mi email",
+      url: "mailto:boss@pepamraz.cz",
     },
   ];
 
@@ -66,6 +70,7 @@ const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={link.name}
+                className="text-white hover:text-secondary"
               >
                 <i className={link.icon}></i>
               </a>
@@ -78,8 +83,8 @@ const Footer: React.FC = () => {
           <h2 className="text-2xl text-secondary font-bold">Hledám...</h2>
           <ul className="footer-links text-white">
             {searchLinks.map((link, index) => (
-              <li key={index} className="hover:text-secondary">
-                <a href={link.url}>{link.name}</a>
+              <li key={index}>
+                <a href={link.url} className="no-underline text-white hover:text-secondary">{link.name}</a>
               </li>
             ))}
           </ul>
@@ -90,11 +95,12 @@ const Footer: React.FC = () => {
           <h2 className="text-2xl text-secondary font-bold">Co dál?</h2>
           <ul className="footer-links text-white">
             {nextStepsLinks.map((link, index) => (
-              <li key={index} className="hover:text-secondary">
+              <li key={index}>
                 <a
                   href={link.url}
                   target={link.url.startsWith("http") ? "_blank" : "_self"}
                   rel="noopener noreferrer"
+                  className="no-underline text-white hover:text-secondary"
                 >
                   {link.name}
                 </a>

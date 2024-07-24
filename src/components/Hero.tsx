@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Snowflake from "../icons/SnowflakeIcon";
 
 const Hero: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -30,7 +31,7 @@ const Hero: React.FC = () => {
           webových stránek
         </h1>
         <h2 className="flex text-2xl">
-          Pepa&nbsp;<div className="text-blue-500 font-bold">Mráz</div>
+          Pepa&nbsp;<div className="text-blue-500 font-bold">Mráz<Snowflake/></div>
         </h2>
         <button onClick={() => (window.location.href = "#kontakt")}>
           Kotaktovat <i className="pl-2 fa-solid fa-envelope"></i>

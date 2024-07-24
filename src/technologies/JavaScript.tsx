@@ -1,5 +1,6 @@
-import React from "react";
 import TechTemplate from "../components/TechTemplate";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const JavaScript = () => {
   return (
@@ -19,6 +20,18 @@ export const JavaScript = () => {
             afterNumber: " hry",
             title: "Vytvořené webové RPG hry",
             animationTime: 1500,
+          },
+        ]}
+        repositories={[
+          {
+            title: "GTA: San Andreas Interaktivní Fan-made web",
+            url: "https://pepamraz.github.io/gta-san-andreas-website/",
+            icon: "./tech/tech-icons/svelte-icon.png",
+          },
+          {
+            title: "GTA San Andreas Interaktivní Fan-made web Repository",
+            url: "https://github.com/pepamraz/gta-san-andreas-website",
+            icon: <FontAwesomeIcon icon={faGithub} size="2xl" />,
           },
         ]}
         accordions={[

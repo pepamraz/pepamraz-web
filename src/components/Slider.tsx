@@ -9,12 +9,10 @@ import { ReactFramework } from "../technologies/ReactFramework";
 import { CSS } from "../technologies/CSS";
 import { HTML } from "../technologies/HTML";
 import { JavaScript } from "../technologies/JavaScript";
-import { PremierePro } from "../technologies/PremierePro";
 import { Elementor } from "../technologies/Elementor";
 import { Git } from "../technologies/Git";
 import { WooCommerce } from "../technologies/WooCommerce";
 import { Linux } from "../technologies/Linux";
-import { Bash } from "../technologies/Bash";
 import { CSharp } from "../technologies/CSharp";
 
 interface Technology {
@@ -31,153 +29,116 @@ interface TechnologyMap {
 const technologies: TechnologyMap[] = [
   {
     Wordpress: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-wordpress.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-wordpress.svg",
       title: "Wordpress",
       body: <Wordpress />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/wordpress/pepamraz-cz-nejlepsiwebovky-cz-homepage.webp",
+        "./tech/tech-images/woocommerce/pepamraz-cz-greenly-cz-homepage.webp",
+        "./tech/tech-images/wordpress/pepamraz-cz-tech-image-laptop-wordpress-icon.jpg",
+        "./tech/tech-images/wordpress/pepamraz-cz-tech-image-wordpress-hosting-panel.jpg",
+        "./tech/tech-images/wordpress/pepamraz-cz-tech-image-wordpress-programmer.jpg",
       ],
     },
     PHP: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-php.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-php.svg",
       title: "PHP",
       body: <PHP />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/php/pepamraz-cz-tech-image-php-elephant-laptop.jpg",
+        "./tech/tech-images/php/pepamraz-cz-tech-image-website-programming-languages.jpg",
       ],
     },
     React: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-react.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-react.svg",
       title: "React",
       body: <ReactFramework />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/react-framework/pepamraz-cz-tech-image-react-app.jpg",
+        "./tech/tech-images/react-framework/pepamraz-cz-tech-image-react-router.jpg",
       ],
     },
     CSS: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-css.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-css.svg",
       title: "CSS",
       body: <CSS />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/css/pepamraz-cz-tech-image-css-book.jpg",
+        "./tech/tech-images/css/pepamraz-cz-tech-image-css-code-lines.jpg",
       ],
     },
     HTML: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-html.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-html.svg",
       title: "HTML",
       body: <HTML />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/html/pepamraz-cz-tech-image-browser-icons.jpg",
+        "./tech/tech-images/php/pepamraz-cz-tech-image-website-programming-languages.jpg",
       ],
     },
     JavaScript: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-javascript.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-javascript.svg",
       title: "JavaScript",
       body: <JavaScript />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-      ],
-    },
-    "Premiere Pro": {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-premiere-pro.svg",
-      title: "Premiere Pro",
-      body: <PremierePro />,
-      images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/js/pepamraz-cz-tech-image-javascript-book.jpg",
+        "./tech/tech-images/js/pepamraz-cz-tech-image-javascript.jpg",
       ],
     },
     Elementor: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-elementor.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-elementor.svg",
       title: "Elementor",
       body: <Elementor />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/wordpress/pepamraz-cz-nejlepsiwebovky-cz-homepage.webp",
+        "./tech/tech-images/woocommerce/pepamraz-cz-greenly-cz-homepage.webp",
+        "./tech/tech-images/elementor/takemotion-cz.webp",
       ],
     },
     Git: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-git.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-git.svg",
       title: "Git",
       body: <Git />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/git/github-desktop-screenshot.jpg",
+        "./tech/tech-images/git/pepamraz-cz-tech-image-github-repository.jpg",
+        "./tech/tech-images/git/pepamraz-cz-tech-image-gitlab.jpg",
       ],
     },
     WooCommerce: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-woocommerce.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-woocommerce.svg",
       title: "WooCommerce",
       body: <WooCommerce />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/woocommerce/pepamraz-cz-greenly-cz-homepage.webp",
+        "./tech/tech-images/woocommerce/pepamraz-cz-tech-image-woocommerce.jpg",
       ],
     },
     Linux: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-linux.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-linux.svg",
       title: "Linux",
       body: <Linux />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-      ],
-    },
-    Bash: {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-bash.svg",
-      title: "Bash",
-      body: <Bash />,
-      images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/linux/obesenec-nahled.png",
+        "./tech/tech-images/linux/pepamraz-cz-kubuntu.webp",
+        "./tech/tech-images/linux/pepamraz-cz-tech-image-debian-neofetch.jpg",
+        "./tech/tech-images/linux/pepamraz-cz-tech-image-terminal-ubuntu.jpg",
       ],
     },
     "C#": {
-      icon: "./tech-icons/pepamraz-cz-technology-icon-c-sharp.svg",
+      icon: "./tech/tech-icons/pepamraz-cz-technology-icon-c-sharp.svg",
       title: "C#",
       body: <CSharp />,
       images: [
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
-        "https://picsum.photos/1080",
+        "./tech/tech-images/csharp/pepamraz-cz-csharp-code-lottery.webp",
+        "./tech/tech-images/csharp/pepamraz-cz-tech-image-visual-studio.jpg",
       ],
     },
   },
 ];
 
 const Slider: React.FC = () => {
-  const [selectedTech, setSelectedTech] = useState(null);
+  const [selectedTech, setSelectedTech] = useState<Technology | null>(null);
 
   const allTechnologies = Object.keys(technologies[0]);
 
@@ -193,6 +154,8 @@ const Slider: React.FC = () => {
     const currentIndex = findTechIndex(selectedTech);
     if (currentIndex >= 0 && currentIndex < allTechnologies.length - 1) {
       setSelectedTech(technologies[0][allTechnologies[currentIndex + 1]]);
+    } else if (currentIndex === allTechnologies.length - 1) {
+      setSelectedTech(technologies[0][allTechnologies[0]]);
     }
   };
 
@@ -200,6 +163,8 @@ const Slider: React.FC = () => {
     const currentIndex = findTechIndex(selectedTech);
     if (currentIndex > 0) {
       setSelectedTech(technologies[0][allTechnologies[currentIndex - 1]]);
+    } else if (currentIndex === 0) {
+      setSelectedTech(technologies[0][allTechnologies[allTechnologies.length - 1]]);
     }
   };
 
