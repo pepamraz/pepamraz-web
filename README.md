@@ -17,6 +17,9 @@ To run the development environment, follow these steps:
     ```
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
     ```
+## How to deploy
+1. `npm run build`
+2. `npm run deploy`
 
 Remember to keep the development server running while making changes to the code.
 
