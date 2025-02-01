@@ -666,6 +666,10 @@ button {
   z-index: 50;
 }
 
+.order-2 {
+  order: 2;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -675,16 +679,12 @@ button {
   margin-right: auto;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -719,8 +719,8 @@ button {
   max-height: 24rem;
 }
 
-.max-h-\[380px\] {
-  max-height: 380px;
+.max-h-\[396px\] {
+  max-height: 396px;
 }
 
 .max-h-\[420px\] {
@@ -733,10 +733,6 @@ button {
 
 .max-h-full {
   max-height: 100%;
-}
-
-.max-h-\[396px\] {
-  max-height: 396px;
 }
 
 .min-h-\[700px\] {
@@ -1179,6 +1175,10 @@ button {
 
   .md\:top-1\/2 {
     top: 50%;
+  }
+
+  .md\:left-0 {
+    left: 0px;
   }
 
   .md\:m-0 {

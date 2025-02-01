@@ -30,6 +30,7 @@ const App: React.FC = () => {
             link={section.link}
             image1={section.image1}
             image2={section.image2}
+            switchSides={index % 2 == 1}
           />
         ))}
       </div>

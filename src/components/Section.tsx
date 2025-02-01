@@ -9,6 +9,7 @@ interface SectionProps {
   link?: string;
   image1?: string;
   image2?: string;
+  switchSides?: boolean;
 }
 
 const Section: React.FC<SectionProps> = ({
@@ -20,13 +21,14 @@ const Section: React.FC<SectionProps> = ({
   link,
   image1,
   image2,
+  switchSides,
 }) => {
   return (
     <div
       className="grid grid-cols-1 md:grid-cols-2 py-16 px-4 md:px-4 gap-y-12"
       id={id}
     >
-      <div className="left flex justify-center flex-col items-start gap-6">
+      <div className={`left flex justify-center flex-col items-start gap-6 ${switchSides ? "order-2" : ""}`}>
         <h2 className="font-bold font-mono text-2xl">{title}</h2>
         <p>{content}</p>
         {button && (
@@ -61,7 +63,7 @@ const Section: React.FC<SectionProps> = ({
           <img
             src={image2}
             alt={title ?? "Obrázek sekce 2"}
-            className={`md:absolute md:max-w-32 md:max-h-full md:right-0 md:bottom-0 object-contain object-center ${
+            className={`md:absolute md:max-w-32 md:max-h-full ${switchSides ? 'md:left-0' : 'md:right-0'} md:bottom-0 object-contain object-center ${
               image1 ? "w-1/2" : "w-full"
             }`}
           />
