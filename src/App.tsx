@@ -9,10 +9,12 @@ import Footer from "./components/Footer";
 import Signature from "./components/Signature";
 
 import sectionsData from "./data/SectionData.json";
+import Loader from "./components/Loader";
 
 const App: React.FC = () => {
   return (
     <>
+      <Loader/>
       <Header />
       <div className="max-w-5xl m-auto pt-24">
         <Hero />
