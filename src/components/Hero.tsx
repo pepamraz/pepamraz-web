@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
           Pepa&nbsp;<div className="text-blue-500 font-bold">Mráz<Snowflake /></div>
         </h2>
         <button onClick={() => (window.location.href = "#kontakt")}>
-          Kotaktovat <i className="pl-2 fa-solid fa-envelope"></i>
+          Kontaktovat <i className="pl-2 fa-solid fa-envelope"></i>
         </button>
       </div>
       <div className="px-4 image-container drop-shadow-2xl relative">
